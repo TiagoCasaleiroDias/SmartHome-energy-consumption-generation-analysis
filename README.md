@@ -1,4 +1,4 @@
-# Technical Analysis on SmartHome energy Generation and Consumption
+# Technical Analysis on SmartHome energy generation and consumption
 *[Tiago Casaleiro Dias]*
 
 *[Lisbon, January 2020]*
