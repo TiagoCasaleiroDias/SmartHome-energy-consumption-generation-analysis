@@ -1,7 +1,5 @@
-<img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
-
-# Title of My Project
-*[Technical Analysis on SmartHome energy Generation and Consumption]*
+# Technical Analysis on SmartHome energy Generation and Consumption
+*[Tiago Casaleiro Dias]*
 
 *[Lisbon, January 2020]*
 
@@ -16,35 +14,36 @@
 <a name="project-description"></a>
 
 ## Project Description
-Write a short description of your project: 3-5 sentences about what your project is about, why you chose this topic (if relevant), and what you are trying to show. 
+
+The objective of this project is to use exploratory analysis and inference statistics to make a complete and thorough analysis in the patterns
+of energy generation and energy consumption of a SmartHome. The energy is generated through solar panels on the rooftop of the house. The
+consumption includes the energy spent on every applicance in the house.
 
 <a name="hypotheses-/-questions"></a>
 
 ## Hypotheses / Questions
-What are the questions you would like to answer with your project? Write your hypotheses here.
 
-<a name="dataset"></a>
+- Does this location has potential to deploy a P2P solar energy sharing business? 
 
 ## Dataset
-Where did you get your data? What dataset did you use or did you build your own datset? If so, did you use an API? Did you scrape a web? Provide links to the data if available.
 
-[Dataset]() 
+I used a dataset from Kaggle, that contains the readings of a solar panel energy generation and the energy consumption per appliance of a SmartHome. The readings were taken minute by minute, in the year of 2016. 
+
+[Dataset](https://www.kaggle.com/taranvee/smart-home-dataset-with-weather-information) 
 
 <a name="workflow"></a>
 
 ## Workflow
-Outline the workflow you used in your project. What were the steps you went through?
 
-<a name="organization"></a>
-
-## Organization
-How did you organize yourself? Did you use any tools?
+1. Prepared the dataset with the features that I was interested in and then aggregated the dataset in KWH.
+2. Calculated general consumption, adding the consumption of each appliance
+3. Exploratory analysis - Data visualization on Tableau
+4. Inference Statistics - Hypothesis testing on the months with higher generation, from 3:00PM to 7:00PM.
 
 <a name="links"></a>
 
 ## Links
 Include the links to your repository, slides and trello. Feel free to include any other links associated to your project. 
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/TiagoCasaleiroDias/SmartHome-energy-consumption-generation-analysis)  
+[Slides](https://slides.com/TiagoCasaleiroDias/SmartHome-energy-consumption-generation-analysis/blob/master/technical_analysis_presentation.pdf)   
